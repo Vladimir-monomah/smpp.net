@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.5.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Inetlab.SMPP">
+      <HintPath>..\..\..\bin\netstandard2.0\Inetlab.SMPP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
